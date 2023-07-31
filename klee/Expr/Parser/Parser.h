@@ -12,8 +12,8 @@
 
 #include "klee/Expr/Expr.h"
 
-#include <vector>
-#include <string>
+//////////////////////////////////////////////////#include <vector>
+//////////////////////////////////////////////////#include <string>
 
 namespace llvm {
   class MemoryBuffer;

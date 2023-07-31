@@ -12,7 +12,7 @@
 
 #include "klee/Config/Version.h"
 #include "llvm/Support/DataTypes.h"
-#include <assert.h>
+//////////////////////////////////////////////////#include <assert.h>
 
 namespace klee {
   namespace bits32 {

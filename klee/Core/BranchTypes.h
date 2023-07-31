@@ -10,7 +10,7 @@
 #ifndef KLEE_BRANCHTYPES_H
 #define KLEE_BRANCHTYPES_H
 
-#include <cstdint>
+//////////////////////////////////////////////////#include <cstdint>
 
 /// \cond DO_NOT_DOCUMENT
 #define BRANCH_TYPES                                                           \

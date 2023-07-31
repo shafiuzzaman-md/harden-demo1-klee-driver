@@ -10,7 +10,7 @@
 #ifndef KLEE_IMMUTABLESET_H
 #define KLEE_IMMUTABLESET_H
 
-#include <functional>
+//////////////////////////////////////////////////#include <functional>
 
 #include "ImmutableTree.h"
 

@@ -13,7 +13,7 @@
 #include "klee/ADT/Ref.h"
 #include "klee/Expr/Expr.h"
 
-#include <vector>
+//////////////////////////////////////////////////#include <vector>
 
 namespace klee {
 class Assignment;

@@ -10,7 +10,7 @@
 #ifndef KLEE_MEMORYUSAGE_H
 #define KLEE_MEMORYUSAGE_H
 
-#include <cstddef>
+//////////////////////////////////////////////////#include <cstddef>
 
 namespace klee {
   namespace util {

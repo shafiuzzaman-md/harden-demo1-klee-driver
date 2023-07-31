@@ -12,7 +12,7 @@
 
 #include "klee/Expr/ExprVisitor.h"
 
-#include <vector>
+//////////////////////////////////////////////////#include <vector>
 
 namespace klee {
   class Array;

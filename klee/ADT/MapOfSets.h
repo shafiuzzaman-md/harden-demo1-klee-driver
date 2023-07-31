@@ -10,10 +10,10 @@
 #ifndef KLEE_MAPOFSETS_H
 #define KLEE_MAPOFSETS_H
 
-#include <cassert>
-#include <vector>
-#include <set>
-#include <map>
+//////////////////////////////////////////////////#include <cassert>
+//////////////////////////////////////////////////#include <vector>
+//////////////////////////////////////////////////#include <set>
+//////////////////////////////////////////////////#include <map>
 
 // This should really be broken down into TreeOfSets on top of which
 // SetOfSets and MapOfSets are easily implemeted. It should also be

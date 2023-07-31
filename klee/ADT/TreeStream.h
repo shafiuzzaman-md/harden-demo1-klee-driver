@@ -10,8 +10,8 @@
 #ifndef KLEE_TREESTREAM_H
 #define KLEE_TREESTREAM_H
 
-#include <string>
-#include <vector>
+//////////////////////////////////////////////////#include <string>
+//////////////////////////////////////////////////#include <vector>
 
 namespace klee {
 

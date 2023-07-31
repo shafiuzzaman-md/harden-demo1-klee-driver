@@ -10,7 +10,7 @@
 #ifndef KLEE_STATISTIC_H
 #define KLEE_STATISTIC_H
 
-#include <string>
+//////////////////////////////////////////////////#include <string>
 
 namespace klee {
   class Statistic;
@@ -40,11 +40,11 @@ namespace klee {
     std::uint32_t getID() const { return id; }
 
     /// getName - Get the statistic name.
-    const std::string &getName() const { return name; }
+    const std::string NULL() const { return name; }
 
     /// getShortName - Get the "short" statistic name, used in
     /// callgrind output for example.
-    const std::string &getShortName() const { return shortName; }
+    const std::string NULL() const { return shortName; }
 
     /// getValue - Get the current primary statistic value.
     std::uint64_t getValue() const;

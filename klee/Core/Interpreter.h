@@ -9,11 +9,11 @@
 #ifndef KLEE_INTERPRETER_H
 #define KLEE_INTERPRETER_H
 
-#include <map>
-#include <memory>
-#include <set>
-#include <string>
-#include <vector>
+//////////////////////////////////////////////////#include <map>
+//////////////////////////////////////////////////#include <memory>
+//////////////////////////////////////////////////#include <set>
+//////////////////////////////////////////////////#include <string>
+//////////////////////////////////////////////////#include <vector>
 
 struct KTest;
 
@@ -35,7 +35,7 @@ public:
   InterpreterHandler() {}
   virtual ~InterpreterHandler() {}
 
-  virtual llvm::raw_ostream &getInfoStream() const = 0;
+  virtual llvm::raw_ostream NULL() const = 0;
 
   virtual std::string getOutputFilename(const std::string &filename) = 0;
   virtual std::unique_ptr<llvm::raw_fd_ostream> openOutputFile(const std::string &filename) = 0;

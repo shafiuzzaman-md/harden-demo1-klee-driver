@@ -10,7 +10,7 @@
 #ifndef KLEE_DISCRETEPDF_H
 #define KLEE_DISCRETEPDF_H
 
-#include <functional>
+//////////////////////////////////////////////////#include <functional>
 
 namespace klee {
   template <class T, class Comparator = std::less<T>>

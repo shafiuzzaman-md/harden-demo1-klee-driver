@@ -10,7 +10,7 @@
 #ifndef KLEE_TERMINATIONTYPES_H
 #define KLEE_TERMINATIONTYPES_H
 
-#include <cstdint>
+//////////////////////////////////////////////////#include <cstdint>
 
 #define TERMINATION_TYPES                                                      \
   TTYPE(RUNNING, 0U, "")                                                       \

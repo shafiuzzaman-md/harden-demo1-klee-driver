@@ -1,7 +1,25 @@
 #include "klee/klee.h"
-#include "../Demo1_Bob/Demo1_Bob.c"
-#include <stdio.h>
+#include  "Uefi.h"
+#include  "Library/BaseLib.h"
+#include  "Library/BaseMemoryLib.h"
+#include  "Library/UefiDriverEntryPoint.h"
+#include  "Library/UefiBootServicesTableLib.h"
+#include  "Library/MemoryAllocationLib.h"
+#include  "Library/PrintLib.h"
+#include  "Library/UefiLib.h"
+
+#include "Library/RngLib.h"
+#include "Protocol/Rng.h"
+
+#include "Protocol/LoadedImage.h"
+
+#include "ProcessorBind.h"
+#include "../edk2/EmulatorPkg/Demo1_Bob/Demo1_Bob.c"
+#include "../edk2/EmulatorPkg/Demo1_Access_Key/Demo1_Access_Key.c"
+//#include "../edk2/EmulatorPkg/Demo1_Alice/Demo1_Alice.c"
 #include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 
 #define MEMORY_SIZE 1000
 
@@ -24,8 +42,8 @@ void ScanMemoryForKey(UINTN read_magic) {
     if (Demo1BobDataProvider(NULL, addr, &dataptr, size) == EFI_SUCCESS)
     {
          klee_assert(memcmp((VOID *)dataptr, (VOID *)&bobKey, sizeof(bobKey)) != 0);
-         printf("addr->access_key_store[0]: %x\n", addr->access_key_store[0]);
-         printf("addr->access_key_store[1]: %llx\n", addr->access_key_store[1]);
+         //printf("addr->access_key_store[0]: %x\n", addr->access_key_store[0]);
+        // printf("addr->access_key_store[1]: %llx\n", addr->access_key_store[1]);
 
     }
     
@@ -74,7 +92,7 @@ void CheckBufferOverflow()
 
 int main()
  {
-  //scan_memory();
-  CheckBufferOverflow();
+   scan_memory();
+ // CheckBufferOverflow();
   return 0;
 }

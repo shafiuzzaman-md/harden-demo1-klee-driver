@@ -19,7 +19,7 @@
 #include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/MathExtras.h"
 
-#include <cassert>
+//////////////////////////////////////////////////#include <cassert>
 
 namespace klee {
 namespace floats {

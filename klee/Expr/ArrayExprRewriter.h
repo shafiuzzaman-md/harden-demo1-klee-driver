@@ -10,9 +10,9 @@
 #ifndef KLEE_ARRAYEXPRREWRITER_H
 #define KLEE_ARRAYEXPRREWRITER_H
 
-#include <iterator>
-#include <map>
-#include <vector>
+//////////////////////////////////////////////////#include <iterator>
+//////////////////////////////////////////////////#include <map>
+//////////////////////////////////////////////////#include <vector>
 
 #include "klee/ADT/Ref.h"
 #include "klee/Expr/Expr.h"

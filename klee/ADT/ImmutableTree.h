@@ -10,8 +10,8 @@
 #ifndef KLEE_IMMUTABLETREE_H
 #define KLEE_IMMUTABLETREE_H
 
-#include <cassert>
-#include <vector>
+//////////////////////////////////////////////////#include <cassert>
+//////////////////////////////////////////////////#include <vector>
 
 namespace klee {
   template<class K, class V, class KOV, class CMP>

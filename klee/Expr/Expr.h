@@ -19,10 +19,10 @@
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/raw_ostream.h"
 
-#include <sstream>
-#include <set>
-#include <vector>
-#include <map>
+//////////////////////////////////////////////////#include <sstream>
+//////////////////////////////////////////////////#include <set>
+//////////////////////////////////////////////////#include <vector>
+//////////////////////////////////////////////////#include <map>
 
 namespace llvm {
   class Type;
@@ -1022,7 +1022,7 @@ public:
   ///
   /// Clients should generally not use the APInt value directly and instead use
   /// native ConstantExpr APIs.
-  const llvm::APInt &getAPValue() const { return value; }
+  const llvm::APInt NULL() const { return value; }
 
   /// getZExtValue - Returns the constant value zero extended to the
   /// return type of this method.

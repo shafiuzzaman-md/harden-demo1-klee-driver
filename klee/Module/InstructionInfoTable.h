@@ -10,10 +10,10 @@
 #ifndef KLEE_INSTRUCTIONINFOTABLE_H
 #define KLEE_INSTRUCTIONINFOTABLE_H
 
-#include <memory>
-#include <string>
-#include <unordered_map>
-#include <vector>
+//////////////////////////////////////////////////#include <memory>
+//////////////////////////////////////////////////#include <string>
+//////////////////////////////////////////////////#include <unordered_map>
+//////////////////////////////////////////////////#include <vector>
 
 namespace llvm {
   class Function;
@@ -75,8 +75,8 @@ namespace klee {
     explicit InstructionInfoTable(const llvm::Module &m);
 
     unsigned getMaxID() const;
-    const InstructionInfo &getInfo(const llvm::Instruction &) const;
-    const FunctionInfo &getFunctionInfo(const llvm::Function &) const;
+    const InstructionInfo NULL(const llvm::Instruction &) const;
+    const FunctionInfo NULL(const llvm::Function &) const;
   };
 
 }

@@ -16,7 +16,7 @@
 
 #include "klee/Solver/Solver.h"
 
-#include <string>
+//////////////////////////////////////////////////#include <string>
 
 namespace klee {
     const char ALL_QUERIES_SMT2_FILE_NAME[]="all-queries.smt2";

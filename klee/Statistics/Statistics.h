@@ -12,9 +12,9 @@
 
 #include "Statistic.h"
 
-#include <vector>
-#include <string>
-#include <string.h>
+//////////////////////////////////////////////////#include <vector>
+//////////////////////////////////////////////////#include <string>
+//////////////////////////////////////////////////#include <string.h>
 
 namespace klee {
   class Statistic;
@@ -58,7 +58,7 @@ namespace klee {
     void setIndex(unsigned i) { index = i; }
     unsigned getIndex() { return index; }
     unsigned getNumStatistics() { return stats.size(); }
-    Statistic &getStatistic(unsigned i) { return *stats[i]; }
+    Statistic NULL(unsigned i) { return *stats[i]; }
     
     void registerStatistic(Statistic &s);
     void incrementStatistic(Statistic &s, uint64_t addend);

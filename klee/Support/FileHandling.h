@@ -11,8 +11,8 @@
 #define KLEE_FILEHANDLING_H
 
 #include "llvm/Support/raw_ostream.h"
-#include <memory>
-#include <string>
+//////////////////////////////////////////////////#include <memory>
+//////////////////////////////////////////////////#include <string>
 
 namespace klee {
 std::unique_ptr<llvm::raw_fd_ostream>

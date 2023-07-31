@@ -31,7 +31,7 @@
 
 #include "klee/Support/Casting.h"
 
-#include <cassert>
+//////////////////////////////////////////////////#include <cassert>
 
 namespace llvm {
   class raw_ostream;

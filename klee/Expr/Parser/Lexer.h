@@ -10,7 +10,7 @@
 #ifndef KLEE_LEXER_H
 #define KLEE_LEXER_H
 
-#include <string>
+//////////////////////////////////////////////////#include <string>
 
 namespace llvm {
   class MemoryBuffer;

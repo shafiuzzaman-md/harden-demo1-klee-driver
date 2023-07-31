@@ -10,7 +10,7 @@
 #ifndef KLEE_KCALLABLE_H
 #define KLEE_KCALLABLE_H
 
-#include <string>
+//////////////////////////////////////////////////#include <string>
 
 #include "llvm/ADT/Twine.h"
 #include "llvm/IR/Function.h"

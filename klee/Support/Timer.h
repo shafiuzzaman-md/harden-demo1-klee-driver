@@ -14,8 +14,8 @@
 
 #include "llvm/ADT/SmallVector.h"
 
-#include <functional>
-#include <memory>
+//////////////////////////////////////////////////#include <functional>
+//////////////////////////////////////////////////#include <memory>
 
 namespace klee {
 

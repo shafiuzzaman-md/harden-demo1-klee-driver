@@ -14,7 +14,7 @@
 #include "klee/System/Time.h"
 #include "klee/Solver/SolverCmdLine.h"
 
-#include <vector>
+//////////////////////////////////////////////////#include <vector>
 
 namespace klee {
   class ConstraintSet;

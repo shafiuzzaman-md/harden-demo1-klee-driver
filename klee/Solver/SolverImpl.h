@@ -13,7 +13,7 @@
 #include "klee/System/Time.h"
 #include "Solver.h"
 
-#include <vector>
+//////////////////////////////////////////////////#include <vector>
 
 namespace klee {
   class Array;
