@@ -54,7 +54,7 @@ def comment_out_gBS(source_file):
         file.write(updated_content)
 
     # Define a separate regular expression pattern to capture gBS->CloseEvent (Event); and gBS->SignalEvent(AliceProtocol->Demo1_Ready_To_Run_Event);
-    specific_patterns = r'(gBS->CloseEvent\s*\([^;]*\);|gBS->SignalEvent\s*\([^;]*\);)'
+    specific_patterns = r'(gBS->CloseEvent\s*\([^;]*\);|gBS->SignalEvent\s*\([^;]*\);|Status = RngProtocol->GetRNG\s*\([^;]*\);|ASSERT\s*\([^;]*\);)'
 
     # Read the content of the source file in text mode with UTF-8 encoding
     with open(source_file, 'r', encoding='utf-8', errors='ignore') as file:
